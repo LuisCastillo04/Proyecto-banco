@@ -10,7 +10,7 @@ import java.util.Random;
 
 /**
  *
- * @author Luis
+ * @author Luis Eduaro Miño Castillo
  */
 public class Cuenta{
     private String idCuenta; // StringRandom
@@ -92,7 +92,7 @@ public class Cuenta{
         //Insertamos Setters y Getters
 
   public void setMisCuentas(ArrayList<Cuenta> misCuentas) {
-        this.misMovimientos = misCuentas;
+        //this.misMovimientos = misCuentas;
     }
     
     

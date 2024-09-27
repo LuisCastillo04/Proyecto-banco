@@ -43,7 +43,7 @@ public class AhorraException extends Exception {
         String expresionReg = "^[A-Za-z\\s]+$";  
         Pattern pattern = Pattern.compile(expresionReg);
         Matcher match = pattern.matcher(tel);
-        if(!match.matches() throw)
+        //if(!match.matches() throw)
         return tel;
                
     }
